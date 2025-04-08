@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="nav-title">LoveConnect</h1>
+        <ul class="nav-ul">
+            <li><a href="home">Home</a></li>
+            <li><a href="matches">Maches</a></li>
+            <li><a href="profile">Profile</a></li>
+            <li><a href="message">Messages</a></li>
+            <button class="nav-btn"><a href="login.html" id="btn">Login</a></button>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="signup-box">
+            <h2>Create Your Account</h2>
+            <form action="">
+                <div class="input-grp">
+                    <div class="name-field">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" placeholder="Enter your first name">
+                    </div>
+                    <div class="name-field">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" placeholder="Enter your last name">
+                    </div>
+                </div>
+                
+                
+                <label for="">Email</label>
+                <input type="email" placeholder="Enter your email">
+                <label for="">Password</label>
+                <input type="password" placeholder="Create a password">
+                <div class="input-grp">
+                    <div class="name-field">
+                        <label for="birth-date">Birth Date</label>
+                        <input type="date" id="birth-date">
+                    </div>
+                    <div class="name-field">
+                        <label for="gender">Gender</label>
+                        <select id="gender">
+                            <option value="">Select gender</option>
+                            <option value="">Male</option>
+                            <option value="">Female</option>
+                            <option value="">Other</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <label for="">Location</label>
+                <input type="text" placeholder="Enter your city">
+                <button type="submit" class="signup-btn">Create Account</button>
+            </form>
+        </div>
+        
+    </section>
+</body>
+</html>

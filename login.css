@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 40px;
+}
+.nav-ul{
+    display: flex;
+    gap: 22px;
+    list-style: none;
+ 
+}
+.nav-ul a {
+    text-decoration: none;
+    color: rgb(19, 17, 17);
+    font-size: 19px;
+}
+.nav-title{
+    color: #ce1436;
+    font-size: 25px;
+    font-weight: 900;
+}
+.nav-btn{
+    background-color:#fc0532f6;
+    padding: 4px 13px;
+    border-radius: 15px;
+    font-size: 19px;
+    color: #fff;
+    margin: 0px;
+    border: none;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#ce1436,#845e84);
+    height: 90vh;
+}
+.login-box{
+    border: none;
+    padding: 40px 50px;
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.login-box form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.login-box h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-box label{
+    margin-left: 0px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.login-box input{
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.login-btn{
+    padding: 10px;
+    font-size: 15px;
+    background-color: #fc0532f6;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+}
+.signup-txt{
+    margin-top: 25px;
+}
+.signup-txt a{
+    color: #fc0532f6;
+    text-decoration: none;
+}
+.forgot-txt a{
+    color: #fc0532f6;
+    text-decoration: none;
+}
